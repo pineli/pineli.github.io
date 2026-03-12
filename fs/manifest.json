@@ -1,0 +1,92 @@
+{
+  "~": {
+    "type": "dir",
+    "children": {
+      "welcome.html": {
+        "type": "file",
+        "size": "2.1k",
+        "date": "Oct 24"
+      },
+      "about.html": {
+        "type": "file",
+        "size": "1.4k",
+        "date": "Oct 20"
+      },
+      "work.sh": {
+        "type": "file",
+        "size": "0.3k",
+        "date": "Oct 18"
+      },
+      ".bashrc": {
+        "type": "file",
+        "size": "0.1k",
+        "date": "Sep 05"
+      },
+      "articles": {
+        "type": "dir",
+        "children": {
+          "conferencia-iot-2021.md": {
+            "type": "file",
+            "size": "2.1k",
+            "date": "Mar 18, 2021"
+          },
+          "uso-dlt-tangle-protecao-dados.md": {
+            "type": "file",
+            "size": "4.5k",
+            "date": "Dez 10, 2020"
+          },
+          "leia-isso-antes-de-decidir-a-plataforma-iot.md": {
+            "type": "file",
+            "size": "3.8k",
+            "date": "Jan 01, 2020"
+          }
+        }
+      },
+      "photos": {
+        "type": "dir",
+        "children": {
+          "linkedin-skills-innovation-skills.png": {
+            "type": "file",
+            "size": "7.9M",
+            "date": "Mar 12",
+            "caption": "LinkedIn Innovation Skills Assessment"
+          }
+        }
+      },
+      "animations": {
+        "type": "dir",
+        "children": {
+          "linux1992.ascgif": {
+            "type": "file",
+            "size": "1.8k",
+            "date": "Mar 11"
+          },
+          "pineliOS.ascgif": {
+            "type": "file",
+            "size": "6.2k",
+            "date": "Mar 11"
+          },
+          "tux.ascgif": {
+            "type": "file",
+            "size": "2.4k",
+            "date": "Mar 11"
+          }
+        }
+      },
+      ".config": {
+        "type": "dir",
+        "children": {
+          "neovim": {
+            "type": "dir",
+            "children": {}
+          },
+          "tmux.conf": {
+            "type": "file",
+            "size": "0.1k",
+            "date": "Aug 10"
+          }
+        }
+      }
+    }
+  }
+}

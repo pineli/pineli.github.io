@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pineli - Senior Software Engineer building performant digital systems">
+    <title>[PINELI] - Senior Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Header / Nav -->
+    <header class="header">
+
+        <div class="logo" data-cmd="reboot" style="cursor: pointer;" title="Reboot System">[PINELI]<span class="cursor">█</span></div>
+        <nav class="nav">
+            <a href="#" class="nav-link" data-cmd="ls -la ./articles">./blog</a>
+            <!-- <a href="#" class="nav-link" data-cmd="ls -la ./photos">./photos</a> -->
+            <a href="#" class="nav-link" data-cmd="cat about.html">./sobre</a>
+        </nav>
+    </header>
+
+    <!-- Split-pane container -->
+    <div class="split-container" id="split-container">
+        <!-- Terminal (left pane) -->
+        <main class="terminal" id="terminal">
+            <div class="terminal-scroll" id="terminal-scroll">
+                <div id="terminal-output"></div>
+                <div class="terminal-input-line">
+                    <span class="prompt-interactive" id="prompt-display">pineli@dev:~$&nbsp;</span>
+                    <input type="text" id="terminal-input" class="terminal-input" autofocus autocomplete="off"
+                        spellcheck="false">
+                </div>
+            </div>
+        </main>
+
+        <!-- Viewer panel (right pane) — hidden by default -->
+        <aside class="viewer-panel" id="viewer-panel">
+            <div class="viewer-frame">
+                <div class="viewer-titlebar">
+                    <span class="viewer-title" id="viewer-title">file.txt</span>
+                    <span class="viewer-close" id="viewer-close" title="Close (Esc)">[X]</span>
+                </div>
+                <div class="viewer-body" id="viewer-body"></div>
+            </div>
+        </aside>
+    </div>
+
+    <script type="module" src="/js/app.js"></script>
+</body>
+
+</html>

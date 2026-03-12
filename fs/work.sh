@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Loading career ..."
+echo "→ Liderança de equipes"
+echo "→ Inteligência Artificial"
+echo "→ Arquitetura de Software"
+echo "→ Alta performance"
+echo "→ Interagrações e APIs de alta escalabilidade "
+echo "→ Tecnologias e metodologias modernas"
+echo "→ Ecossistemas de novas tecnologias em IoT"
+echo "→ Aprendendo +...."
+echo " "
