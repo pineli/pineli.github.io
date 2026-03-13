@@ -18,7 +18,8 @@
     <!-- Header / Nav -->
     <header class="header">
 
-        <div class="logo" data-cmd="reboot" style="cursor: pointer;" title="Reboot System">[PINELI]<span class="cursor">█</span></div>
+        <div class="logo" data-cmd="reboot" style="cursor: pointer;" title="Reboot System">[PINELI]<span
+                class="cursor">█</span></div>
         <nav class="nav">
             <a href="#" class="nav-link" data-cmd="ls -la ./articles">./blog</a>
             <!-- <a href="#" class="nav-link" data-cmd="ls -la ./photos">./photos</a> -->
@@ -51,8 +52,14 @@
             </div>
         </aside>
     </div>
-
     <script type="module" src="/js/app.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7E7X635LJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-W7E7X635LJ');
+    </script>
 </body>
 
 </html>
